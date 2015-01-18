@@ -406,6 +406,14 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".cm.LockScreenShortcutsActivity"
+            android:icon="@drawable/tuner"
+            android:label="@string/lock_screen_targets_message"
+            android:theme="@android:style/Theme.Material.Settings"
+            android:exported="true">
+        </activity>
+
         <!-- Doze with notifications, run in main sysui process for every user  -->
         <service
             android:name=".doze.DozeService"

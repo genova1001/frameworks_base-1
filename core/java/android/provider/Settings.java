@@ -6161,6 +6161,12 @@ public final class Settings {
         public static final String QS_USE_MAIN_TILES = "sysui_qs_main_tiles";
 
         /**
+         * Launch actions for left/right lock screen targets
+         * @hide
+         */
+        public static final String LOCK_SCREEN_TARGETS = "lock_screen_target_actions";
+
+        /**
          * This are the settings to be backed up.
          *
          * NOTE: Settings are backed up and restored in the order they appear

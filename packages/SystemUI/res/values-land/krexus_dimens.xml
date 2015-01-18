@@ -15,16 +15,7 @@
      limitations under the License.
 -->
 <resources>
-    <!-- QS tiles column count size scale factors -->
-    <item name="qs_tile_three_column_scale" format="float" type="dimen">1.0</item>
-    <item name="qs_tile_four_column_scale" format="float" type="dimen">0.9</item>
-    <item name="qs_tile_five_column_scale" format="float" type="dimen">0.85</item>
-    
-    <!-- Lock screen shortcuts -->
-    <dimen name="lockscreen_icon_side_padding">10dp</dimen>
-    <dimen name="lockscreen_icon_size">35dp</dimen>
-    <dimen name="phone_side_padding">10dp</dimen>
-    <dimen name="phone_bottom_padding">40dp</dimen>
-    <dimen name="phone_width">320dp</dimen>
-    <dimen name="phone_height">420dp</dimen>
+     <!-- Lock screen shortcuts -->
+    <dimen name="phone_height">210dp</dimen>
+    <dimen name="phone_width">420dp</dimen>
 </resources>
